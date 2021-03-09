@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/tabulator-tables@4.9.3/dist/css/tabulator.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.min.js"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>welcome to our toDo list.</h1>
+      <div class="instructions">
+        <p>welcome! <br />to add another item, just click the button</p>
+        <button class="button add-item">add item</button>
+        <button class="button delete-item">
+          delete item<input type="text" />
+        </button>
+      </div>
+      <div class="tableWrap">
+        <div id="toDoList"></div>
+      </div>
+    </div>
+
+    <script src="todoApp.js"></script>
+  </body>
+</html>
