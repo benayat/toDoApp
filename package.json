@@ -1,0 +1,20 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "simple todo app",
+  "type": "module",
+  "main": "toDo.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benayat/toDoApp.git"
+  },
+  "author": "Benaya Trabelsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benayat/toDoApp/issues"
+  },
+  "homepage": "https://github.com/benayat/toDoApp#readme"
+}

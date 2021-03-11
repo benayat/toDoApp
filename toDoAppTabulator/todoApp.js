@@ -35,7 +35,9 @@ class toDo {
   }
   deleteItem(id) {
     const result = this.toDoList.delete(id);
-    if (result && id === this.id) toDo.id--;
+
+    if (result) toDo.id--;
+
     return result;
   }
   markAsDone(id) {
